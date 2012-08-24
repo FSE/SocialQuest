@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+        <link rel="stylesheet" href="css/validationEngine.jquery.css" type="text/css"/>
+        <link href="css/mobiscroll-2.0.1.custom.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/commons.css" rel="stylesheet" type="text/css" />
+        <style type="text/css">
+            .validationError{
+                background: red;
+            }
+
+
+
+            #content {
+                background-color: #FFFFFF;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.js">
+        </script>
+        <!--<script src="scripts/questvalidate.js"></script>-->
+        <script src="js/jquery.validationEngine-de.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
+        <script src="scripts/storage.js"></script> 
+    </head>
+    <body>       
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-role="header">
+                <h1>Sign up</h1>
+            </div>
+            <div data-role="content" id="content">
+                <form action="#" method="POST">
+                    <fieldset>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" value=""  />
+     
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" value="" />
+
+                        <label for="password">Retype password:</label>
+                        <input type="password" name="password" id="password" value="" />
+     
+                        <input id="Submit1" type="submit" value="Sign in" data-role="button" data-inline="true" data-theme="b" />
+
+                        <p> or sign-in with </p>
+
+                        <a data-role="button" href="#" data-inline="true" data-icon="google">Google+</a>
+                        <a data-role="button" href="#" data-inline="true" data-icon="facebook">Facebook</a>
+                   </fieldset>
+               </form>
+            </div>
+        </div>
+        <script>
+            //App custom javascript
+        </script>
+    </body>
+</html>

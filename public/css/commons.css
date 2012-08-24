@@ -1,0 +1,18 @@
+label {
+    color: #000000;
+    text-shadow: none;
+}
+
+.ui-page {
+    background: #2f559a;
+}
+
+.ui-icon-google {
+	background-image: url("../images/gp-01.png");
+	background-size: 18px 18px;
+}
+
+.ui-icon-facebook {
+	background-image: url("../images/fb-01.png");
+	background-size: 18px 18px;
+}
